@@ -1,0 +1,12 @@
+name = "webeditor-stub"
+main = "src/index.js"
+compatibility_date = "2025-12-09"
+
+[[kv_namespaces]]
+binding = "FILES"
+id = "<замените_на_реальный_id_после_wrangler_kv_create>"
+preview_id = "<замените_на_реальный_id_после_wrangler_kv_create>"
+
+# IMPORTANT: You MUST set the OPENAI_API_KEY as a secret in Cloudflare Workers
+# using the command: wrangler secret put OPENAI_API_KEY
+# The value will be automatically available as env.OPENAI_API_KEY in the Worker.
