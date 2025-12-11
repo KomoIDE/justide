@@ -1,4 +1,5 @@
-safe.directorytest Thu Dec 11 14:04:24 +06 2025
-test
-test Thu Dec 11 14:11:45 +06 2025
-gggggggg
+chmod +x ~/autosync_clean.sh
+bash ~/autosync_clean.sh &
+sleep 2
+ps aux | grep -E "autosync_clean|inotifywait" | grep -v grep
+tail -f ~/autosync_clean.log
