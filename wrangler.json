@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "justide",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "1b17200e-7298-41de-a2c1-62567bc15d37",
+			"database_name": "justide-database"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}
